@@ -1,29 +1,29 @@
-# 🐦 BirdDex – Aves de Sudamérica
+# 🐦 .BirdDex
 
-Aplicación web tipo Pokédex, pero enfocada en aves nativas de Sudamérica. Hecha con React y amor por la biodiversidad.
+A React-based web app that displays birds. Inspired by the Pokédex. Built using Vite and Wikipedia’s public API.
 
-## 🌎 Demo en vivo
+## 🔗 Live Demo
 
-👉 [bird-dex.netlify.app](https://tu-deploy-aqui)
+ [Visit .BirdDex](https://your-bird-dex-link.netlify.app)
 
-## 🧠 Funcionalidades
+## 🧠 Features
 
-- Listado de aves sudamericanas con imagen y datos.
-- Filtro por nombre.
-- Página de detalle por especie.
-- Diseño responsivo y accesible.
+- Horizontal carousel layout with scroll snapping
+- Auto-fetches bird info (title, summary, image) from Wikipedia
+- Graceful fallback when images are unavailable
+- Responsive and clean design with dark mode aesthetics
 
-## 🛠 Tecnologías
+## 🛠️ Tech Stack
 
-- React / Vite
-- CSS Modules o Tailwind
-- JSON (simulando API)
-- Netlify (deploy)
+- React + Vite
+- Wikipedia REST API
+- CSS Flexbox + inline styles
+- Netlify for deployment
 
-## 🧪 Instalación local
+## 📦 Getting Started
 
 ```bash
-git clone https://github.com/aaplv2/bird-dex.git
+git clone https://github.com/your-username/bird-dex.git
 cd bird-dex
 npm install
 npm run dev
